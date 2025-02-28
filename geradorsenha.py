@@ -25,6 +25,8 @@ def gerar_senha(tamanho=12, usar_maiusculas=True, usar_minusculas=True, usar_num
 # Interação com o usuário
 def interacao_usuario():
     print("Bem-vindo ao gerador de senhas!")
+    print ('=-' * 30)
+
 
     # Solicita o tamanho da senha
     tamanho = int(input("Digite o tamanho da senha desejada (mínimo 8): "))
